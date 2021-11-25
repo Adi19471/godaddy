@@ -1,0 +1,1 @@
+web: gunicorn GODADDY_ASSIGNMENT.wsgi --log-file=-
