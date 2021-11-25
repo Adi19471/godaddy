@@ -4,9 +4,9 @@ from assignmntAPP import views
 
 urlpatterns = [
 #  start
-    path('',views.home_view,name="home"),
+    path('home/',views.home_view,name="home"),
 # first
-    path('toures-travels',views.tures_travel_view,name="tures-travel"),
+    path('',views.tures_travel_view,name="tures-travel"),
 # second
     path('Assignment-paper',views.Assignment_Paper_view,name="Assignment-paper"),
 # third
