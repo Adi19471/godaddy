@@ -91,11 +91,5 @@ a:hover{
 }
 
 /* box data type mobile box */
-.box{
-  margin-top: 50px;;
-  border: 1px solid black;
-  height: 100em;
-  padding: 130px 0px 100px 0px;
-  width: 350px;
-}
+
 }
