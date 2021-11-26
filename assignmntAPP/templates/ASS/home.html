@@ -4,8 +4,6 @@
 
 
 
-
-
 <div class="box">
     <div class="container mt-5">
 
@@ -26,7 +24,8 @@
                         <div class=" h-100">
 
                             <div class="card-body">
-                                <h5 class="card-title" style="margin-left: -350px;"> <i class="fas fa-search "> </i>
+                                <h5 class="card-title" style="margin-left: 50px;" id="search"> <i
+                                        class="fas fa-search "> </i>
                                 </h5>
 
                             </div>
@@ -48,8 +47,7 @@
                         <div class="h-100">
 
                             <div class="card-body">
-                                <h5 class="card-title" style="margin-left: 330px;"><i
-                                        class="fas fa-greater-than text-white"></i></h5>
+                                <h5 class="card-title"  id="greater"><i class="fas fa-greater-than text-white"></i></h5>
 
                             </div>
 
@@ -60,208 +58,210 @@
 
             <!--  Assignment Paper -->
             <a href="{% url 'Assignment-paper' %}" target="_self">
-            <div class="row row-cols-1 row-cols-md-3 g-4 mt-2 bg-primary"
-                style="border:5px outset  rgb(20, 23, 221);border-radius: 5px 5px 5px 5px;">
-                <div class="col ">
-                    <div class=" h-100">
+                <div class="row row-cols-1 row-cols-md-3 g-4 mt-2 bg-primary"
+                    style="border:5px outset  rgb(20, 23, 221);border-radius: 5px 5px 5px 5px;">
+                    <div class="col ">
+                        <div class=" h-100">
 
-                        <div class="card-body">
-                            <h5 class="card-title" style="margin-left: -350px;"> <i class="fas fa-search "> </i> </h5>
+                            <div class="card-body">
+                                <h5 class="card-title" style="margin-left: 50px;" id="search"> <i
+                                        class="fas fa-search "> </i> </h5>
 
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col">
-                    <div class=" h-100">
-
-                        <div class="card-body">
-                            <h3><a href="{% url 'Assignment-paper' %}" target="_self" class="text-white">Assignment
-                                    Paper</a></h3>
+                            </div>
 
                         </div>
-
                     </div>
-                </div>
-                <div class="col">
-                    <div class="h-100">
+                    <div class="col">
+                        <div class=" h-100">
 
-                        <div class="card-body">
-                            <h5 class="card-title" style="margin-left: 330px;"><i
-                                    class="fas fa-greater-than text-white"></i></h5>
+                            <div class="card-body">
+                                <h3><a href="{% url 'Assignment-paper' %}" target="_self" class="text-white">Assignment
+                                        Paper</a></h3>
+
+                            </div>
 
                         </div>
+                    </div>
+                    <div class="col">
+                        <div class="h-100">
 
+                            <div class="card-body">
+                                <h5 class="card-title"  id="greater"><i class="fas fa-greater-than text-white"></i></h5>
+
+                            </div>
+
+                        </div>
                     </div>
                 </div>
-            </div>
 
-        </a>
+            </a>
             <!-- Paper Bags -->
 
             <a href="{% url 'Paper-Bag' %}" target="_self">
 
-            <div class="row row-cols-1 row-cols-md-3 g-4 mt-2 bg-primary"
-                style="border:5px outset  rgb(20, 23, 221);border-radius: 5px 5px 5px 5px;">
-                <div class="col ">
-                    <div class=" h-100">
+                <div class="row row-cols-1 row-cols-md-3 g-4 mt-2 bg-primary"
+                    style="border:5px outset  rgb(20, 23, 221);border-radius: 5px 5px 5px 5px;">
+                    <div class="col ">
+                        <div class=" h-100">
 
-                        <div class="card-body">
-                            <h5 class="card-title" style="margin-left: -350px;"> <i class="fas fa-search "> </i> </h5>
+                            <div class="card-body">
+                                <h5 class="card-title" style="margin-left: 50px;" id="search"> <i
+                                        class="fas fa-search "> </i> </h5>
 
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col">
-                    <div class=" h-100">
-
-                        <div class="card-body">
-                            <h3><a href="{% url 'Paper-Bag' %}" target="_self" class="text-white">Paper Bags</a></h3>
+                            </div>
 
                         </div>
-
                     </div>
-                </div>
-                <div class="col">
-                    <div class="h-100">
+                    <div class="col">
+                        <div class=" h-100">
 
-                        <div class="card-body">
-                            <h5 class="card-title" style="margin-left: 330px;"><i
-                                    class="fas fa-greater-than text-white"></i></h5>
+                            <div class="card-body">
+                                <h3><a href="{% url 'Paper-Bag' %}" target="_self" class="text-white">Paper Bags</a>
+                                </h3>
+
+                            </div>
 
                         </div>
+                    </div>
+                    <div class="col">
+                        <div class="h-100">
 
+                            <div class="card-body">
+                                <h5 class="card-title"  id="greater"><i class="fas fa-greater-than text-white"></i></h5>
+
+                            </div>
+
+                        </div>
                     </div>
                 </div>
-            </div>
 
-        </a>
+            </a>
             <!-- Designer Handbag -->
-            <a href="{% url 'Designer-Handbags' %}" target="_self" >
-            <div class="row row-cols-1 row-cols-md-3 g-4 mt-2 bg-primary"
-                style="border:5px outset  rgb(20, 23, 221);border-radius: 5px 5px 5px 5px;">
-                <div class="col ">
-                    <div class=" h-100">
+            <a href="{% url 'Designer-Handbags' %}" target="_self">
+                <div class="row row-cols-1 row-cols-md-3 g-4 mt-2 bg-primary"
+                    style="border:5px outset  rgb(20, 23, 221);border-radius: 5px 5px 5px 5px;">
+                    <div class="col ">
+                        <div class=" h-100">
 
-                        <div class="card-body">
-                            <h5 class="card-title" style="margin-left: -350px;"> <i class="fas fa-search "> </i> </h5>
+                            <div class="card-body">
+                                <h5 class="card-title" style="margin-left: 50px;" id="search"> <i
+                                        class="fas fa-search "> </i> </h5>
 
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col">
-                    <div class=" h-100">
-
-                        <div class="card-body">
-                            <h3><a href="{% url 'Designer-Handbags' %}" target="_self" class="text-white">Designer
-                                    Handbags</a></h3>
+                            </div>
 
                         </div>
-
                     </div>
-                </div>
-                <div class="col">
-                    <div class="h-100">
+                    <div class="col">
+                        <div class=" h-100">
 
-                        <div class="card-body">
-                            <h5 class="card-title" style="margin-left: 330px;"><i
-                                    class="fas fa-greater-than text-white"></i></h5>
+                            <div class="card-body">
+                                <h3><a href="{% url 'Designer-Handbags' %}" target="_self" class="text-white">Designer
+                                        Handbags</a></h3>
+
+                            </div>
 
                         </div>
+                    </div>
+                    <div class="col">
+                        <div class="h-100">
 
+                            <div class="card-body">
+                                <h5 class="card-title"  id="greater"><i class="fas fa-greater-than text-white"></i></h5>
+
+                            </div>
+
+                        </div>
                     </div>
                 </div>
-            </div>
 
-        </a>
+            </a>
             <!-- Writting Essay -->
 
 
             <a href="{% url 'Writting-essay' %}" target="_self">
-            <div class="row row-cols-1 row-cols-md-3 g-4 mt-2 bg-primary"
-                style="border:5px outset  rgb(20, 23, 221);border-radius: 5px 5px 5px 5px;">
-                <div class="col ">
-                    <div class=" h-100">
+                <div class="row row-cols-1 row-cols-md-3 g-4 mt-2 bg-primary"
+                    style="border:5px outset  rgb(20, 23, 221);border-radius: 5px 5px 5px 5px;">
+                    <div class="col ">
+                        <div class=" h-100">
 
-                        <div class="card-body">
-                            <h5 class="card-title" style="margin-left: -350px;"> <i class="fas fa-search "> </i> </h5>
+                            <div class="card-body">
+                                <h5 class="card-title" style="margin-left: 50px;" id="search"> <i
+                                        class="fas fa-search "> </i> </h5>
 
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col">
-                    <div class=" h-100">
-
-                        <div class="card-body">
-                            <h3><a href="{% url 'Writting-essay' %}" target="_self" class="text-white">Writting an
-                                    Essay</a></h3>
+                            </div>
 
                         </div>
-
                     </div>
-                </div>
-                <div class="col">
-                    <div class="h-100">
+                    <div class="col">
+                        <div class=" h-100">
 
-                        <div class="card-body">
-                            <h5 class="card-title" style="margin-left: 330px;"><i
-                                    class="fas fa-greater-than text-white"></i></h5>
+                            <div class="card-body">
+                                <h3><a href="{% url 'Writting-essay' %}" target="_self" class="text-white">Writting an
+                                        Essay</a></h3>
+
+                            </div>
 
                         </div>
+                    </div>
+                    <div class="col">
+                        <div class="h-100">
 
+                            <div class="card-body">
+                                <h5 class="card-title"  id="greater"><i class="fas fa-greater-than text-white"></i></h5>
+
+                            </div>
+
+                        </div>
                     </div>
                 </div>
-            </div>
 
-        </a>
+            </a>
 
             <!-- Travel Bags -->
             <a href="{% url 'Things-Remembered-Personalized' %}" target="_self">
-            <div class="row row-cols-1 row-cols-md-3 g-4 mt-2 bg-primary"
-                style="border:5px outset  rgb(65, 68, 231);border-radius: 5px 5px 5px 5px;">
-                <div class="col ">
-                    <div class=" h-100">
+                <div class="row row-cols-1 row-cols-md-3 g-4 mt-2 bg-primary"
+                    style="border:5px outset  rgb(65, 68, 231);border-radius: 5px 5px 5px 5px;">
+                    <div class="col ">
+                        <div class=" h-100">
 
-                        <div class="card-body">
-                            <h5 class="card-title" style="margin-left: -350px;"> <i class="fas fa-search "> </i> </h5>
+                            <div class="card-body">
+                                <h5 class="card-title" style="margin-left: 50px;" id="search"> <i
+                                        class="fas fa-search "> </i> </h5>
 
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col">
-                    <div class=" h-100">
-
-                        <div class="card-body">
-                            <h3 id="small-name"><a href="{% url 'Things-Remembered-Personalized' %}" target="_self"
-                                    class="text-white">Things&nbsp;Remembered&nbsp;Personalized&nbsp;Gifts</a></h3>
+                            </div>
 
                         </div>
-
                     </div>
-                </div>
-                <div class="col">
-                    <div class="h-100">
+                    <div class="col">
+                        <div class=" h-100">
 
-                        <div class="card-body">
-                            <h5 class="card-title" style="margin-left: 330px;"><i
-                                    class="fas fa-greater-than text-white"></i></h5>
+                            <div class="card-body">
+                                <h3 ><a href="{% url 'Things-Remembered-Personalized' %}" target="_self"
+                                        class="text-white">Designer Travel Bags</a></h3>
+
+                            </div>
 
                         </div>
+                    </div>
+                    <div class="col">
+                        <div class="h-100">
 
+                            <div class="card-body">
+                                <h5 class="card-title"  id="greater"><i class="fas fa-greater-than text-white"></i></h5>
+
+                            </div>
+
+                        </div>
                     </div>
                 </div>
-            </div>
 
 
         </div>
 
-    </a>
+        </a>
 
         <br>
         <br>
+
 
         {% endblock content %}

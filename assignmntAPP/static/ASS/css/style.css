@@ -1,13 +1,17 @@
+body{
+  width: 100%;
+}
 .related{
   margin-left: -20px;
 }
 .assignment-one{
-    background-color: rgba(95, 158, 160, 0.384);
+    background-color: rgba(85, 177, 180, 0.651);
+    
 }
 
 .box{
   margin-top: 50px;;
-    border: 1px solid black;
+  border: 1px solid black;
 }
 
 a{
@@ -39,19 +43,34 @@ button{
   color: white;
  
 }
+#greater{
+  margin-right: 150px;
+  margin-top: 10px;
+ }
+
+
 
 
 @media only screen and (max-width: 600px) and (max-width:768px){
+  /* search home button */
+ 
+  #search{
   
-
-
-  button{
-    margin-top: 30px;
-    font-size: 30px;
-    border: 20px solid rgb(19, 23, 216);
-    color: white;
-   
+    margin-top: -60px;
   }
+  #greater{
+    margin-top: -85px;
+    margin-left: 230px;
+   }
+   
+     button{
+       margin-top: 30px;
+       font-size: 30px;
+       border: 20px solid rgb(19, 23, 216);
+       color: white;
+      
+     }
+
 
   a{
     text-decoration: none;
