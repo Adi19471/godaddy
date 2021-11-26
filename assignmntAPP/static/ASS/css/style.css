@@ -27,3 +27,13 @@ a:hover{
   color: white;
   padding-top:17px;
 }
+
+
+/* visite web site button */
+button{
+  font-size: 30px;
+  border: 20px solid rgb(19, 23, 216);
+  color: white;
+ 
+}
+
