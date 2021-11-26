@@ -1,3 +1,6 @@
+h6{
+  color: black;
+}
 body{
   width: 100%;
 }
@@ -12,12 +15,18 @@ body{
 .box{
   margin-top: 50px;;
   border: 1px solid black;
+  box-shadow: 2px;
+  
 }
+
+
 
 a{
   text-decoration: none;
   color: blue;
 }
+
+
 
 a:hover{
   text-decoration: underline;
