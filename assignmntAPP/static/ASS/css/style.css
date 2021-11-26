@@ -54,13 +54,23 @@ button{
 @media only screen and (max-width: 600px) and (max-width:768px){
   /* search home button */
  
-  #search{
-  
-    margin-top: -60px;
+  .fa-search{
+    height: 1px;
+width: 1px;
+position: absolute;
+overflow: hidden;
+top: -10px;
+
+   margin-bottom: 10px;
+    padding-left: -300px;
+    margin-left:-300px;
+    padding-top: -160px;
+    font-size: 30px;
+    color: white;
   }
   #greater{
     margin-top: -85px;
-    margin-left: 230px;
+    margin-left: 330px;
    }
    
      button{
